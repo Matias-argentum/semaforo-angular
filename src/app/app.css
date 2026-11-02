@@ -1,0 +1,48 @@
+.semaphore-card{
+    margin: 0 auto;
+    border: 1 px black;
+    background-color: rgb(68, 86, 104);
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 100px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.btn-red{
+    background-color: red;
+    color: white
+}
+
+.btn-yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.btn-green{
+    background-color: green;
+    color: white;
+}
+
+.color-box{
+    border: 3px black;
+    border-radius: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.counter{
+    margin: 5px;
+    width: 200px;
+    color: white;
+}

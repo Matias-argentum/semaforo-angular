@@ -1,0 +1,15 @@
+<div class="semaphore-card">
+
+  <button class="btn btn-red" (click)="update('red')">ROJO</button>
+  <button class="btn btn-yellow" (click)="update('yellow')">AMARILLO</button>
+  <button class="btn btn-green" (click)="update('green')">VERDE</button>
+
+  <div class="color-box" [style.backgroundColor]="currentColor()">
+
+  </div>
+
+  <div class="counter">
+    <h3>Clicks: <span>{{count()}}</span></h3>
+  </div>
+
+</div>
